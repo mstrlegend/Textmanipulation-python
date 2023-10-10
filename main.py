@@ -15,14 +15,14 @@ def read_file():
             output += f"{z['mode']}: {z['appName']} - {z['processName']}\n"
             index += 1
     r.close
-    with open("Output.txt", 'w') as w:
+    with open("output.txt", 'w') as w:
         w.write("Netskope_test_group:\n\n" + "Mode | App Name | Process Name\n" + output)
     w.close
     return "Output has been written to: 'Output.txt'"
 
 print(read_file())
 
-with open("Output.txt", "r") as r:
+with open("output.txt", "r") as r:
     for line in r.readlines():
         if bool(re.search("^direct", line)) is True:
             print(line, end="")
