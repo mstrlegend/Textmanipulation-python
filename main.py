@@ -8,6 +8,8 @@ There are two modes: Tunnel and Direct
 Tunnel mode bypasses proxy but processes the traffic on the Netskope server, direct mode processes it locally
 
 The following are filtering options: 'action' 'appName' 'app_domains' 'mode' 'processName' 'rowID' 'tunnel_domains'
+
+Just copy and paste, or add to the scripts directory, the nsbypass.json file
 """
 
 
