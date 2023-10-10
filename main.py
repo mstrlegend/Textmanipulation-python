@@ -1,9 +1,16 @@
-# {"certPinnedAppList":[*all configs are stored here*],"status":"success","steering_config_name":"Netskope_test_group"} is the header of the file
-# Goal is to get the the below features from a standard netskope nsbypass config file
+"""
+This is a script to filter the netskope nsbypass.json file
 
-# The following are dictionary options: 'action' 'appName' 'app_domains' 'mode' 'processName' 'rowID' 'tunnel_domains'
+The nsbypass.json file describes the configuration of the traffic steering bypass policy
 
-# Tunnel mode bypasses proxy but processes the traffic on the Netskope server, direct mode processes it locally
+There are two modes: Tunnel and Direct
+
+Tunnel mode bypasses proxy but processes the traffic on the Netskope server, direct mode processes it locally
+
+The following are filtering options: 'action' 'appName' 'app_domains' 'mode' 'processName' 'rowID' 'tunnel_domains'
+"""
+
+
 import re
 def read_file():
     with open("nsbypass.json", "r") as r:
