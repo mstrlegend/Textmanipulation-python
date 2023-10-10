@@ -18,12 +18,19 @@ def read_file():
     with open("output.txt", 'w') as w:
         w.write("Netskope_test_group:\n\n" + "Mode | App Name | Process Name\n" + output)
     w.close
-    return "Output has been written to: 'Output.txt'"
+    return "Output has been written to: 'Output.txt'\n"
 
 print(read_file())
 
 with open("output.txt", "r") as r:
-    for line in r.readlines():
-        if bool(re.search("^direct", line)) is True:
-            print(line, end="")
+    global ordered_result
+    ordered_result = ""
+    lines = r.readlines()
+    for line in lines:
+        if bool(re.search("^tunnel", line)):
+            ordered_result += line
+    for line in lines:
+        if bool(re.search("^direct", line)):
+            ordered_result += line
+    print(ordered_result)
 
