@@ -1,4 +1,3 @@
-import json
 # {"certPinnedAppList":[],"status":"success","steering_config_name":"Netskope_test_group"}
 # Goal is to get the appname and app domains
 
