@@ -1,0 +1,136 @@
+Netskope_test_group:
+
+Mode | App Name | Process Name
+tunnel: Amazon CloudDrive AmazonCloudDrive.exe
+tunnel: Amazon CloudDrive AmazonCloudDriveW.exe
+tunnel: Backblaze bzserv.exe
+tunnel: Bitcasa Bitcasa.exe
+direct: Carbonite CarboniteUI.exe
+direct: Diligent Boardbooks Diligent.Dragonfly.exe
+direct: Diligent Boardbooks diligent.boardbooks.clients.smartclient.oneclick.exe
+direct: Diligent Boardbooks diligent.dragonfly.universal.exe
+direct: DocuSign DocuSign.exe
+direct: Dropbox dropbox.exe
+direct: Dropbox DropboxInstaller.exe
+direct: Dropbox dropboxupdate.exe
+direct: Dropbox dropboxuniversal.exe
+direct: Druva inSync inSync.exe
+direct: Druva inSync inSyncGUI.exe
+direct: Druva inSync  avp.exe
+direct: Druva inSync insyncagent.exe
+direct: Druva inSync insyncusyncer.exe
+direct: Druva inSync inSyncCPHwnet64.exe
+direct: Druva inSync insyncupgrade.exe
+direct: Egnyte Mac Native App egnyte_local_cloud_client.exe
+direct: Egnyte Mac Native App egnyte_map_drive_systray.exe
+direct: Egnyte Mac Native App egnytelocalcloudsynchronizer.exe
+direct: ElephantDrive ElephantDrive.exe
+direct: GitHub GitHub.exe
+direct: GitHub git.exe
+direct: GitHub node.exe
+direct: GitHub git-remote-https.exe
+direct: GitHub git-credential-manager.exe
+direct: GitHub git-bash.exe
+direct: GitHub git-fetch.exe
+direct: GitHub git-http-fetch.exe
+direct: GitHub git-http-push.exe
+direct: GitHub git-pull.exe
+direct: GitHub git-push.exe
+direct: GitHub git-send-pack.exe
+direct: GitHub githubdesktop.exe
+direct: Google Drive File Stream googledrivefs.exe
+direct: iCloud.exe icloudservices.exe
+direct: iCloud.exe applephotostreams.exe
+direct: iCloud.exe icloud.exe
+direct: iCloud.exe applephotostreams.exe
+direct: iCloud.exe iclouddrive.exe
+direct: JungleDisk JungleDiskWorkgroup.exe
+direct: JungleDisk Junglediskmonitor.exe
+direct: LivePerson LivePerson.exe
+direct: OpenDrive OpenDrive_Tray.exe
+direct: Planview Projectplace projectplace.exe
+direct: SpiderOak SpiderOakONE.exe
+direct: SugarSync SugarSync.exe
+direct: Swizznet wfica32.exe
+direct: Toggl toggldesktop.exe
+direct: Twitter Twitter-Win8.exe
+direct: Filemail Desktop FilemailDesktop.exe
+direct: Facebook Facebook.exe
+direct: FourSquare.exe FourSquare.exe
+direct: GoToMeeting GoToMeeting.exe
+direct: GoToMeeting g2mvideoconference.exe
+direct: GoToMeeting g2mcomm.exe
+direct: GoToMeeting goto opener.exe
+direct: Microsoft Outlook outlook.exe
+direct: Microsoft Outlook wbxcoiex.exe
+direct: Microsoft Outlook searchprotocolhost.exe
+direct: GAM GAM.exe
+direct: Lync lync.exe
+direct: Lync lynchtmlconv.exe
+direct: Lync communicator.exe
+direct: Lync UcMapi.exe
+direct: Lync OcPubMgr.exe
+direct: TeamViewer TeamViewer.exe
+direct: TeamViewer TeamViewer_Service.exe
+direct: Adobe InDesign InDesign.exe
+direct: Google Hangouts Chat.exe
+direct: Zoom zoom.exe
+direct: Citrix GoToAssist g2ax_comm_expert.exe
+direct: Citrix GoToAssist g2ax_session_expert.exe
+direct: Citrix GoToAssist g2ax_start.exe
+direct: Citrix GoToAssist g2ax_user_expert.exe
+direct: Tresorit Winclient tresorit.exe
+direct: Skype skypeapp.exe
+direct: Skype skype.exe
+tunnel: Cisco Spark Message and Meet webexhost.exe
+tunnel: Cisco Spark Message and Meet atmgr.exe
+direct: Crowdstrike CSFalconService.exe
+direct: Google Drive Backup and Sync googledrivesync.exe
+direct: Amazon Kindle kindle.exe
+tunnel: Citrix Workspace wfica32.exe
+direct: Keybase keybase
+direct: Keybase kbfs
+direct: [MapInfo] mapinfopro.exe
+direct: [Fiddler] fiddler.exe
+direct: [NTG_NoInternet_Apps_Bypass] AppInstaller.exe
+direct: [NTG_NoInternet_Apps_Bypass] Bitsadmin.exe
+direct: [NTG_NoInternet_Apps_Bypass] CertOC.exe
+direct: [NTG_NoInternet_Apps_Bypass] CertReq.exe
+direct: [NTG_NoInternet_Apps_Bypass] Certutil.exe
+direct: [NTG_NoInternet_Apps_Bypass] Cmd.exe
+direct: [NTG_NoInternet_Apps_Bypass] cmdl32.exe
+direct: [NTG_NoInternet_Apps_Bypass] ConfigSecurityPolicy.exe
+direct: [NTG_NoInternet_Apps_Bypass] Desktopimgdownldr.exe
+direct: [NTG_NoInternet_Apps_Bypass] Diantz.exe
+direct: [NTG_NoInternet_Apps_Bypass] Esentutl.exe
+direct: [NTG_NoInternet_Apps_Bypass] Expand.exe
+direct: [NTG_NoInternet_Apps_Bypass] Extrac32.exe
+direct: [NTG_NoInternet_Apps_Bypass] Findstr.exe
+direct: [NTG_NoInternet_Apps_Bypass] Finger.exe
+direct: [NTG_NoInternet_Apps_Bypass] Ftp.exe
+direct: [NTG_NoInternet_Apps_Bypass] Hh.exe
+direct: [NTG_NoInternet_Apps_Bypass] IMEWDBLD.exe
+direct: [NTG_NoInternet_Apps_Bypass] Ieexec.exe
+direct: [NTG_NoInternet_Apps_Bypass] Installutil.exe
+direct: [NTG_NoInternet_Apps_Bypass] Ldifde.exe
+direct: [NTG_NoInternet_Apps_Bypass] Makecab.exe
+direct: [NTG_NoInternet_Apps_Bypass] MpCmdRun.exe
+direct: [NTG_NoInternet_Apps_Bypass] Mshta.exe
+direct: [NTG_NoInternet_Apps_Bypass] OneDriveStandaloneUpdater.exe
+direct: [NTG_NoInternet_Apps_Bypass] Presentationhost.exe
+direct: [NTG_NoInternet_Apps_Bypass] PrintBrm.exe
+direct: [NTG_NoInternet_Apps_Bypass] Replace.exe
+direct: [NTG_NoInternet_Apps_Bypass] Xwizard.exe
+direct: [NTG_NoInternet_Apps_Bypass] GfxDownloadWrapper.exe
+direct: [NTG_NoInternet_Apps_Bypass] Excel.exe
+direct: [NTG_NoInternet_Apps_Bypass] MsoHtmEd.exe
+direct: [NTG_NoInternet_Apps_Bypass] Mspub.exe
+direct: [NTG_NoInternet_Apps_Bypass] Powerpnt.exe
+direct: [NTG_NoInternet_Apps_Bypass] ProtocolHandler.exe
+direct: [NTG_NoInternet_Apps_Bypass] Squirrel.exe
+direct: [NTG_NoInternet_Apps_Bypass] Update.exe
+direct: [NTG_NoInternet_Apps_Bypass] Winword.exe
+direct: [NTG_NoInternet_Apps_Bypass] Wsl.exe
+direct: [NTG_NoInternet_Apps_Bypass] curl.exe
+direct: [PowerBI_Desktop] pbidesktop.exe
+direct: [SYNCClient] sync.exe
