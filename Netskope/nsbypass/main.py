@@ -43,5 +43,5 @@ with open("output.txt", "r") as r:
     for line in lines:
         if bool(re.search("^direct", line)):
             ordered_result += line
-    print(ordered_result)
+    print("Here are more results:\n" + ordered_result)
 
