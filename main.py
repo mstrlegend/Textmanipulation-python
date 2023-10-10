@@ -10,6 +10,8 @@ Tunnel mode bypasses proxy but processes the traffic on the Netskope server, dir
 The following are filtering options: 'action' 'appName' 'app_domains' 'mode' 'processName' 'rowID' 'tunnel_domains'
 
 Just copy and paste, or add to the scripts directory, the nsbypass.json file
+
+At the moment it is configured to output the Mode, App Name, and Process Name and filter by mode type.
 """
 
 
